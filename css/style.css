@@ -1,0 +1,75 @@
+/*обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	transition: all .1s ease-in;
+}
+*,*:before,*:after{ 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+html,
+body{
+	font-family: Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	background-color: #F1F1F1;
+
+	}
+.wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+header {
+	margin: 50px auto;
+  	width: 100%;
+  	
+	
+}
+ul {
+	list-style: none;
+	display: inline-block;
+	width: 25%;
+	
+}
+li {
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px;
+
+}
+
+.round {
+	border-radius: 100px;
+}
+
+.container-1 input#search{
+  width: 100%;
+  border: none;
+  font-size: 100px;
+  font-weight: bold;
+  color: #ec5a62;
+  padding: auto;
+  background-color: #F1F1F1;
+  opacity: 0.4;
+  
+}
+
+.container-1 .icon{
+  position: absolute;
+  right: 10px;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  background-image: url('img/magnifier.svg');
+  color: #yellow;
+
+}
+
+span {
+	vertical-align: middle;
+}
