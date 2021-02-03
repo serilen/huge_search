@@ -19,7 +19,7 @@ body{
 
 	}
 .wrapper {
-	width: 80%;
+	width: 75%;
 	margin: auto;
 }
 
@@ -32,16 +32,33 @@ header {
 ul {
 	list-style: none;
 	display: inline-block;
-	width: 25%;
+	width: 30%;
+	font-weight: bold;
+	margin-right: 30px;
+	color: #c2c2c2;
 	
 }
+
 li {
 	display: inline-block;
-	text-transform: uppercase;
-	text-align: center;
+	font-size: 14px;
+	text-transform: capitalize;
+	text-align: left;
 	padding: 10px;
-
+	width: 100%;
+	border: 2px solid #F1F1F1;
+	background-color: rgba(118,117,128,0.05);
 }
+
+
+h2 {
+	text-transform: uppercase;
+	font-size: 16px;
+	border-color: #F1F1F1;
+	background-color: #F1F1F1;
+	padding-bottom: 20px;
+}
+
 
 .round {
 	border-radius: 100px;
