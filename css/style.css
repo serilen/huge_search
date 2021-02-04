@@ -27,8 +27,8 @@ header {
 	margin: 50px auto;
   	width: 100%;
   	
-	
 }
+
 ul {
 	list-style: none;
 	display: inline-block;
@@ -36,7 +36,6 @@ ul {
 	font-weight: bold;
 	margin-right: 30px;
 	color: #c2c2c2;
-	
 }
 
 li {
@@ -56,6 +55,7 @@ h2 {
 	border-color: #F1F1F1;
 	background-color: #F1F1F1;
 	padding-bottom: 20px;
+	color: #c2c2c2;
 }
 
 
@@ -70,8 +70,7 @@ input#search{
   font-weight: bold;
   color: #ec5a62;
   background-color: inherit;
-  opacity: 0.4;
-  
+   
 }
 
 button {
@@ -98,14 +97,16 @@ li a {
 	width: 100%;
 }
 
-li a:focus {
+
+li a:hover {
+	background-color: rgba(118,117,128,0.1);
 	color: #ec5a62;
 }
 
-li:hover {
-	background-color: rgba(118,117,128,0.1);
+/*li a:focus {
+	color: #ec5a62;
 }
 
-/*li a:visited {
+li a:visited {
 	color: #ec5a62;
 }*/
