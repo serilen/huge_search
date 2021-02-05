@@ -18,83 +18,35 @@ body{
 	background-color: #F1F1F1;
 	color: #c2c2c2;
 
-	}
+}
 .wrapper {
-	width: 75%;
+	width: 85%;
 	margin: auto;
 }
 
 header {
 	margin: 50px auto;
-  	width: 100%;
-  	
-}
-
-ul {
-	list-style: none;
-	display: inline-block;
-	width: 30%;
-	font-weight: bold;
-	margin-right: 30px;
-}
-
-li {
-	font-size: 14px;
-	text-transform: capitalize;
-	text-align: left;
 	width: 100%;
-	border: 2px solid #F1F1F1;
-	background-color: rgba(118,117,128,0.05);
-	border-radius: 10px;
-}
-
-
-h2 {
-	font-size: 22px;
-	border-color: #F1F1F1;
-	background-color: #F1F1F1;
-	padding-bottom: 20px;
-}
-
-
-.round {
-	border-radius: 100px;
+	padding-right: 130px;
 }
 
 input#search{
-  width: 100%;
-  border: none;
-  font-size: 100px;
-  font-weight: bold;
-  color: #ec5a62;
-  background-color: inherit;
-   
+	width: 100%;
+	border: none;
+	font-size: 100px;
+	font-weight: bold;
+	color: #ec5a62;
+	background-color: inherit;
+	border-style: none;
+	outline: none;
 }
 
 button {
-  position: absolute;
-  right: 15%;
-  margin-top: 10px;
-  border: none;
-  background: inherit;
-  
-}
-
-span {
-	vertical-align: middle;
-}
-
-.small-letter {
-	text-transform: none;
-	vertical-align: middle;
-}
-
-li a {
-	text-decoration: none;
-	color: #c2c2c2;
-	display: inline-block;
-	width: 100%;
-	padding: 10px;
+	position: absolute;
+	right: 10%;
+	margin-top: 10px;
+	border: none;
+	background: inherit;
 }
 
 input::placeholder {
@@ -105,15 +57,67 @@ button:hover {
 	transform: scale(1.2);
 }
 
+.section1 {
+	width: 33%;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 14px;
+}
+
+
+ul {
+	list-style: none;
+	padding-right: 40px;
+}
+
+h2 {
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+
+li {
+	text-transform: capitalize;
+	text-align: left;
+	width: 100%;
+	margin: 3px 0;
+	background-color: rgba(118,117,128,0.05);
+	border-radius: 10px;
+	display: block;
+	height: 100%;
+}
+
+li img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50px;
+}
+
+.round {
+	border-radius: 100px;
+}
+
+li span {
+ 	display: inline-block;
+ 	vertical-align: middle;
+ 	width: calc(100% - 70px);
+}
+
+li a {
+	text-decoration: none;
+	color: #c2c2c2;
+	display: block;
+	width: 100%;
+	padding: 10px;
+}
+
+
 li a:hover {
 	background-color: rgba(118,117,128,0.1);
 	color: #ec5a62;
 }
 
-/*li a:focus {
-	color: #ec5a62;
+.small-letter {
+	text-transform: lowercase;
+	display: inline;
 }
 
-li a:visited {
-	color: #ec5a62;
-}*/
