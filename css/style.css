@@ -17,16 +17,22 @@ body{
 	height: 100%;
 	background-color: #F1F1F1;
 	color: #c2c2c2;
-
+	font-size: 14px;
 }
-.wrapper {
-	width: 85%;
-	margin: auto;
+
+.container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
 }
 
 header {
-	margin: 50px auto;
-	width: 100%;
+	padding-top: 20px;
+}
+
+form {
+	position: relative;
 	padding-right: 130px;
 }
 
@@ -37,76 +43,84 @@ input#search{
 	font-weight: bold;
 	color: #ec5a62;
 	background-color: inherit;
-	border-style: none;
 	outline: none;
-}
-
-button {
-	position: absolute;
-	right: 10%;
-	margin-top: 10px;
-	border: none;
-	background: inherit;
 }
 
 input::placeholder {
 	color: #c2c2c2;
 }
 
+button {
+	position: absolute;
+	margin-top: 10px;
+	border: none;
+	background: inherit;
+}
+
 button:hover {
 	transform: scale(1.2);
 }
 
-.section1 {
-	width: 33%;
-	font-weight: bold;
-	display: inline-block;
-	font-size: 14px;
+.wrapper-list {
+	font-size: 0;
 }
-
 
 ul {
 	list-style: none;
+	padding-left: 0;
 	padding-right: 40px;
+	width: calc(100% / 3);
+	font-weight: bold;
+	display: inline-block;
+	font-size: 14px;
+	vertical-align: top;
+	font-size: 0;
+}
+
+ul:last-child {
+	padding-right: 0;
+}
+
+.caption {
+	background-color: inherit;
+	text-transform: lowercase;
 }
 
 h2 {
 	font-size: 22px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 li {
-	text-transform: capitalize;
-	text-align: left;
-	width: 100%;
-	margin: 3px 0;
+	margin-bottom: 3px;
 	background-color: rgba(118,117,128,0.05);
 	border-radius: 10px;
-	display: block;
-	height: 100%;
+	font-size: 0;
 }
 
 li img {
 	display: inline-block;
 	vertical-align: middle;
 	width: 50px;
+	height: 50px;
+	margin-right: 20px;
 }
 
 .round {
-	border-radius: 100px;
+	border-radius: 50%;
 }
 
 li span {
- 	display: inline-block;
- 	vertical-align: middle;
- 	width: calc(100% - 70px);
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	width: calc(100% - 70px);
 }
 
 li a {
 	text-decoration: none;
 	color: #c2c2c2;
 	display: block;
-	width: 100%;
 	padding: 10px;
 }
 
@@ -114,10 +128,5 @@ li a {
 li a:hover {
 	background-color: rgba(118,117,128,0.1);
 	color: #ec5a62;
-}
-
-.small-letter {
-	text-transform: lowercase;
-	display: inline;
 }
 
