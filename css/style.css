@@ -10,18 +10,10 @@
 	box-sizing: border-box;
 }
 
-@font-face {
-    font-family: proxima_nova_condensedBlkIt;
-    src: url('../fontrs/proxima_nova_condensed_black_italic-webfont.woff2') format('woff2'),
-         url('../fonts/proxima_nova_condensed_black_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 html,
 body{
-	font-family: proxima_nova_condensedBlkIt, sans-serif;
+	font-family: Arial, sans-serif;
 	width: 100%;
 	height: 100%;
 	background-color: #F1F1F1;
@@ -33,16 +25,13 @@ body{
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 50px;
 }
 
-header {
-	padding-top: 20px;
-}
 
 form {
 	position: relative;
-	padding-right: 130px;
+	padding: 50px 100px 70px 10px;
+	
 }
 
 input#search{
@@ -81,7 +70,6 @@ ul {
 	width: calc(100% / 3);
 	font-weight: bold;
 	display: inline-block;
-	font-size: 14px;
 	vertical-align: top;
 	font-size: 0;
 }
@@ -115,7 +103,7 @@ li img {
 	margin-right: 20px;
 }
 
-.round {
+.cirkle {
 	border-radius: 50%;
 }
 
@@ -137,5 +125,6 @@ li a {
 li a:hover {
 	background-color: rgba(118,117,128,0.1);
 	color: #ec5a62;
+	border-radius: 10px;
 }
 
