@@ -1,5 +1,6 @@
 @font-face {
-    font-family: 'nexa_scriptbold';
+    font-family: 'nexa';
+    font-display: swap;
     src: url('../nexa-script-bold-webfont.woff2') format('woff2'),
          url('../nexa-script-bold-webfont.woff') format('woff');
     font-weight: 700;
@@ -7,15 +8,17 @@
 }
 
 @font-face {
-    font-family: 'nexa_scriptregular';
+    font-family: 'nexa';
+    font-display: swap;
     src: url('../nexa-script-webfont.woff2') format('woff2'),
          url('../nexa-script-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'proxima_novabold_italic';
+    font-family: 'proxima';
+    font-display: swap;
     src: url('proxima_nova_bold_italic-webfont.woff2') format('woff2'),
          url('proxima_nova_bold_italic-webfont.woff') format('woff');
     font-weight: 700;
@@ -27,6 +30,7 @@
 	padding: 0;
 	margin: 0;
 	transition: all .1s ease-in;
+
 }
 *,*:before,*:after{ 
 	-moz-box-sizing: border-box;
@@ -37,7 +41,8 @@
 
 html,
 body{
-	font-family: 'nexa_scriptbold', sans-serif;
+	font-family: 'nexa', sans-serif;
+	font-weight: 700;
 	width: 100%;
 	height: 100%;
 	background-color: #F1F1F1;
@@ -65,8 +70,10 @@ form {
 input#search{
 	width: 100%;
 	border: none;
+	font-family: 'proxima', serif;
+	font-style: italic;
 	font-size: 100px;
-	font-weight: bold;
+	font-weight: 700;
 	color: #ec5a62;
 	background-color: inherit;
 	outline: none;
@@ -96,7 +103,6 @@ ul {
 	padding-left: 0;
 	padding-right: 40px;
 	width: calc(100% / 3);
-	font-weight: bold;
 	display: inline-block;
 	vertical-align: top;
 	font-size: 0;
@@ -114,6 +120,8 @@ ul:last-child {
 }
 
 h2 {
+	font-family: 'nexa';
+	font-weight: 700;
 	font-size: 18px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
@@ -124,7 +132,8 @@ li {
 	background-color: rgba(118,117,128,0.05);
 	border-radius: 10px;
 	font-size: 0;
-	font-family: 'nexa_scriptregular', serif;
+	font-family: 'nexa', serif;
+	font-weight: 400;
 }
 
 li img {
