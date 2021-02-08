@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'nexa_scriptbold';
+    src: url('../nexa-script-bold-webfont.woff2') format('woff2'),
+         url('../nexa-script-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa_scriptregular';
+    src: url('../nexa-script-webfont.woff2') format('woff2'),
+         url('../nexa-script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 /*обнуление*/
 *{
 	padding: 0;
@@ -13,7 +32,7 @@
 
 html,
 body{
-	font-family: Arial, sans-serif;
+	font-family: 'nexa_scriptbold', sans-serif;
 	width: 100%;
 	height: 100%;
 	background-color: #F1F1F1;
@@ -72,6 +91,8 @@ ul {
 	display: inline-block;
 	vertical-align: top;
 	font-size: 0;
+	padding-bottom: 50px;
+
 }
 
 ul:last-child {
@@ -93,6 +114,7 @@ li {
 	background-color: rgba(118,117,128,0.05);
 	border-radius: 10px;
 	font-size: 0;
+	font-family: 'nexa_scriptregular', serif;
 }
 
 li img {
